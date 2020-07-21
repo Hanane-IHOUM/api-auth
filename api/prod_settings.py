@@ -1,8 +1,7 @@
 import dj_database_url
 
 
-
-From api.settings import *
+from api.settings import *
 
 DEBUG = False
 
