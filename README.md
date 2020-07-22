@@ -34,6 +34,6 @@ curl -X POST http://127.0.0.1:8000/auth/token/login/ --data "email=Amine@gmail.c
 ### user's detail 
 curl -LX GET http://127.0.0.1:8000/auth/users/me/ -H "Authorization: Token f6a28dbe42aaebdb0794b6e4dc5deed7cda2997f"
 
-#### logout
+### logout
 curl -X POST http://127.0.0.1:8000/auth/token/logout/ -H "Authorization: Token f6a28dbe42aaebdb0794b6e4dc5deed7cda2997f"
 
